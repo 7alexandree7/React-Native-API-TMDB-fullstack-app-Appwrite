@@ -16,6 +16,7 @@ const _Layout = () => {
                 marginTop: 5,
                 paddingTop: 0,
                 paddingBottom: 0,
+                
             },
             tabBarStyle: {
                 backgroundColor: "#0f0D23",
@@ -28,6 +29,11 @@ const _Layout = () => {
                 paddingVertical: 0,
                 paddingTop: 0,
                 paddingBottom: 0,
+                borderWidth: 0,
+                borderTopWidth: 0,
+                borderTopColor: 'transparent',
+                elevation: 0,  
+                shadowOpacity: 0, 
             }
 
         }}>
