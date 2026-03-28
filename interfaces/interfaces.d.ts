@@ -75,3 +75,13 @@ interface TrendingCardProps {
   movie: TrendingMovie;
   index: number;
 }
+
+
+export interface TMDBConfig {
+    BASE_URL: string;
+    API_KEY: string | undefined;
+    headers: {
+        accept: string;
+        Authorization: string;
+    };
+}
