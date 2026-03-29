@@ -34,7 +34,7 @@ export default function Index() {
             {moviesLoading ? (
               <ActivityIndicator size="large" color="#0000ff" className="mt-10 self-center" />
             ) : moviesError ? (
-              <Text className="text-white text-center mt-10">Error {moviesError}</Text>
+              <Text className="text-red-500 text-center mt-10">Error {moviesError}</Text>
             ) : (
               <>
                 <SearchBar
